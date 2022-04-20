@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 const config = require('config')
 
 app.get('/', (req, res)=>{
-    res.send('prueba del docker')
+    res.send('prueba del dockerr')
 })
 
 app.get('/status', (req, res)=>{
